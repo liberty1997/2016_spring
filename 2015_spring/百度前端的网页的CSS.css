@@ -1,0 +1,323 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #fff;
+	font-size: 12px;
+	font-family:"Microsoft YaHei",寰蒋闆呴粦,"MicrosoftJhengHei",鍗庢枃缁嗛粦,STHeiti,MingLiu;
+}
+
+.header {
+	height: 60px;
+	background: #fff;
+	position: relative;
+}
+.logo {
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	width: 194px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	background: url(../img/logo_c9785ff2.png) no-repeat 0 0	;
+	text-indent: -1000px;
+}
+.cont-wrapper {
+	width: 100%;
+	position: relative;
+}
+.cont-wrapper h2 {
+	position: absolute;
+	font-weight: normal;
+	font-size: 3.3rem;
+	margin: 0;
+	padding: 0;
+}
+.cont-wrapper p {
+	position: absolute;
+	font-weight: normal;
+	font-size: 1.5rem;
+	margin: 0;
+	padding: 0;
+}
+.section-banner {
+	height: 500px;
+	border-top: 1px solid #ccc;
+	background: url(../img/section_1_00ad57e0.jpg) no-repeat 0 0;
+	background-size: cover;
+}
+.section-banner h2 {
+	color: #fff;
+	top: 20%;
+	width: 100%;
+	text-align: center;
+}
+.section-banner p {
+	color: #ccc;
+	top: 20%;
+	margin-top: 5rem;
+	width: 100%;
+	text-align: center;
+}
+.section-practice {
+	height: 500px;
+}
+.section-practice h2 {
+	color: #000;
+	top: 20%;
+	left: 40px;
+}
+.section-practice p {
+	color: #666;
+	top: 20%;
+	left: 40px;
+	margin-top: 10rem;
+}
+.section-practice-img {
+	position: absolute;
+	z-index: -1;
+	right: 1rem;
+	bottom: 0;
+	width: 480px;
+	height: 480px;
+	background: url(../img/erik_ce204002.jpg) no-repeat 0 -2px;
+}
+.section-communication {
+	height: 700px;
+	background: url(../img/section_2_8739e2cf.jpg) no-repeat 0 bottom;
+	background-size: cover;
+}
+.section-communication h2 {
+	color: #000;
+	top: 60%;
+	left: 40px;
+}
+.section-communication p {
+	color: #000;
+	top: 60%;
+	left: 40px;
+	width: 50%;
+	margin-top: 5rem;
+}
+a.join-link {
+	position: absolute;
+	width: 10rem;
+	height: 3rem;
+	line-height: 3rem;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-family: 瀹嬩綋;
+	text-align: center;
+	top: 30%;
+	margin-top: 10rem;
+	left: 50%;
+	margin-left: -5rem;
+}
+a.join-link:hover {
+	background: rgba(255,255,255,0.2);	
+}
+.view-link {
+	color: #fff;
+}
+.footer {
+	height: 150px;
+	background: #333;
+	text-align: center;
+	color: #fff;
+	padding-top: 30px;
+}
+.footer a {
+	color: #fff;
+}
+.section-help {
+	padding: 20px;
+	background: #dedede;
+}
+.help-cont {
+	background: #fff;
+	padding: 10px 20px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 2px #999;
+}
+.help-cont:hover {
+	box-shadow: 4px 4px 2px #999;
+}
+.help-cont img {
+	border: 1px solid #ccc;
+	display: block;
+	margin-bottom: 10px;
+}
+.help-cont p {
+	text-indent: 2em;
+}
+.warmup-wrapper {
+	padding: 20px;
+	background: #dedede;
+}
+.warmup-wrapper h2 {
+	margin: 0;
+	padding: 10px;
+	border-left: 5px solid #ccc;
+}
+.warmup-wrapper p {
+	text-indent: 2em;
+}
+.warmup-wrapper li {
+	margin: 6px 0;
+}
+.warmup-wrapper a, .warmup-wrapper a:visited {
+	color: rgb(64, 64, 192);
+}
+.warmup-wrapper div {
+	background: #fff;
+	padding: 10px 20px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 2px #999;
+}
+.warmup-wrapper div:hover {
+	box-shadow: 4px 4px 2px #999;
+}
+
+.section-help .img-wrap {
+	width: 100%;
+}
+
+.section-help .img-wrap >img {
+	display: block;
+	max-width: 100%;
+}
+
+@-webkit-keyframes 'erikFra' {
+	0% {
+		background-position: 0 -2px;
+	}
+	100% {
+		background-position: 0 -8161px;
+	}
+}
+
+#erikface {
+	width: 480px;
+	height: 480px;
+	background-image: url(http://ife.baidu.com/static/img/erik_ce204002.jpg);
+	background-repeat: no-repeat;
+
+	-webkit-animation-name: erikFra;
+	-moz-animation-name: erikFra;
+	-ms-animation-name: erikFra;
+	-o-animation-name: erikFra;
+	animation-name: erikFra;
+
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-ms-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+
+	-webkit-animation-duration: 1.4s;
+	-moz-animation-duration: 1.4s;
+	-ms-animation-duration: 1.4s;
+	-o-animation-duration: 1.4s;
+	animation-duration: 1.4s;
+
+	-webkit-animation-timing-function: steps(17, end);
+	-moz-animation-timing-function: steps(17, end);
+	-ms-animation-timing-function: steps(17, end);
+	-o-animation-timing-function: steps(17, end);
+	animation-timing-function: steps(17, end);
+
+
+	-webkit-animation-direction: alternate;
+	-moz-animation-direction: alternate;
+	-ms-animation-direction: alternate;
+	-o-animation-direction: alternate;
+	animation-direction: alternate;
+}
+
+@media screen and (max-width: 800px) {
+	
+	.cont-wrapper h2 {
+		font-size: 1.5rem;
+	}
+	.cont-wrapper p {
+		font-size: 1rem;
+	}
+	.section-banner {
+		height: 400px;
+	}
+
+	.section-banner p {
+		margin-top: 2rem;
+	}
+	.section-practice {
+		height: 300px;
+	}
+	.section-practice h2 {
+		font-size: 2rem;
+	}
+	.section-practice p {
+		font-size: 1.3rem;
+		margin-top: 6rem;
+	}
+	.section-communication {
+		height: 400px;
+	}
+	.section-communication h2 {
+		top: 50%;
+		font-size: 2rem;
+	}
+	.section-communication p {
+		top: 50%;
+		width: 70%;
+		font-size: 1.3rem;
+		margin-top: 3rem;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	
+	.cont-wrapper h2 {
+		font-size: 1.2rem;
+	}
+	.cont-wrapper p {
+		font-size: 0.8rem;
+	}
+	.section-banner {
+		height: 400px;
+	}
+
+	.section-banner p {
+		margin-top: 4rem;
+	}
+	.section-practice {
+		height: 300px;
+	}
+	.section-practice h2 {
+		font-size: 1.5rem;
+	}
+	.section-practice p {
+		font-size: 1rem;
+		margin-top: 6rem;
+	}
+	.section-communication {
+		height: 400px;
+	}
+	.section-communication h2 {
+		top: 40%;
+		font-size: 1.5rem;
+	}
+	.section-communication p {
+		top: 40%;
+		width: 70%;
+		font-size: 1.2rem;
+		margin-top: 3rem;
+	}
+	.footer {
+		height: 200px;
+	}
+}

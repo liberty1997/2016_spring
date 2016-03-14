@@ -1,0 +1,138 @@
+h1{
+color:blue;
+font-family:"楷体";
+}
+h2{
+font-size:14px;
+text-align:center;
+text-decoration:underline;
+word-spacing:normal;
+}
+p{
+font-size:15px;
+color:#666;
+line-height:1.5;     /*行高1.5和1.5em不同*/
+text-indent:2em;
+letter-spacing:normal;
+word-spacing:1px;
+text-transform:capitalize;
+}
+img{border:2px solid red;
+width:600px;height:400px;
+}
+body{font-family:"Microsoft Yahei";}
+.bold{font-weight:bold;font-size:15px}
+.shanchuxian{text-decoration:line-through;font-size:17px;}
+#italic{font-size:13px;font-style:italic;}
+#box1{
+background-color:#999;
+text-align:center;/*文字居中*/
+margin:0 auto; /* 定宽块状元素居中，俩条件缺一不可：定宽 和 左右margin值为auto*/
+width:960px;
+}
+#box2{
+	display:inline-block;
+background-color:#ccc;
+width:960px;
+text-align:center;
+margin:20px auto;
+}
+#box3{
+	width:200px;
+	height:200px;
+	float:left;
+	border:7px dashed green;
+}
+#box4{
+	width:200px;
+	height:200px;
+	float:left;
+	border:7px dotted yellow;
+}
+#absolute{
+	width:100px;
+	height:100px;
+	border:3px double purple;
+	position:absolute;
+	left:475px;
+	top:55px;
+	text-align:center;
+	font-family:"宋体";
+}
+#relative{
+	width:200px;
+	height:200px;
+	border:3px inset blue;
+	position:relative;
+	top:100px;
+	left:100px;
+}
+#fixed{
+	width:200px;
+	height:200px;
+	border:3px ridge pink;
+	position:fixed;
+	bottom:100px;
+	right:50px;
+	text-align:center;
+	font-style:italic;
+	text-decoration:underline;
+}/*以上三个id选择器的CSS为层模型*/
+#box5{
+	width:250px;
+	height:250px;
+	position:relative;
+	border:3px groove #f00;
+}
+#box6{
+	width:200px;
+	height:25px;
+	position:absolute;
+	bottom:0;
+	left:25px;
+	border-top:3px solid red;
+	text-align:center;
+	background:#050;
+}
+#orange p{background-color:#f60;}
+#yuanjiao1{
+	width:500px;
+	border:2px outset #f60;
+border-radius:25px;
+text-align:center;
+}
+.copyright{
+	
+	border-left:2px solid blueviolet;
+}
+.clickme{
+	background:#f00;
+	position:fixed;
+	left:30px;
+	top:150px;
+	width:66px;
+	height:26px;
+}
+.wodeqq{
+	display:block;
+	padding:10px;
+	margin:2px;
+}
+.doveduihua{
+display:block;
+	padding:10px;
+	margin:2px;	
+	background:#6F0;
+}
+.age{
+display:block;
+	padding:10px;
+	margin:2px;	
+	background:#F36;	
+}
+._windowdotopen{
+display:block;
+	padding:10px;
+	margin:2px;	
+	background:#C33;	
+}
