@@ -3,15 +3,20 @@
 <head>
 <meta charset="utf-8" />
 <title>MISSION 01</title>
+<link href="cssForM1.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h1>这是网站一级标题</h1>
-<ul>
-<li><a href="http://www.hao123.com">导航一：hao123</a></li>
-<li><a href="http://www.baidu.com">导航二：百度</a></li>
-<li><a href="http://weibo.com/u/5031706951/home?wvr=5&uut=fin&from=reg">导航三：MY BLOG</a></li>
-<li><a href="http://www.imooc.com">导航四：IMMOC</a></li>
+<div class="navBar">
+<img class="logo" src="picforM1/baidu-logo.png" />
+<ul class="lianjie">
+<li class="lianjie"><a href="http://www.hao123.com">导航四</a></li>
+<li class="lianjie"><a href="http://www.baidu.com">导航三</a></li>
+<li class="lianjie"><a href="http://weibo.com/u/5031706951/home?wvr=5&uut=fin&from=reg">导航二</a></li>
+<li class="lianjie"><a href="http://www.imooc.com">导航一</a></li>
 </ul>
+</div>
+<div class="huibian">
+<div class="div1">
 <h2>文章一级标题</h2>
 <h3>文章二级标题</h3>
 <p>作者：腾讯数码&nbsp;&nbsp;时间：2016年03月14日07:29</p>
@@ -29,6 +34,8 @@ Priv到现在还没有  <a href="http://ife.baidu.com">这里链接baidu-ife</a>
 人口红利消失与技能不足并存，企业和农民工都面临着结构性矛盾。<a href="http://ife.baidu.com" target="_blank">此处来链接啦</a>
 于是不断有人提出，让农民工把外出打工习得的技能带回家乡，以创业解决就业。</p>
 <img src="picforM1/qiaoen01.jpg" />
+</div>
+<div class="div1">
 <h2>第二篇文章一级标题</h2>
 <h3>第二篇文章二级标题</h3>
 <p>作者：新京报教育新闻&nbsp;&nbsp;时间：2016年03月14日07:41</p>
@@ -46,19 +53,23 @@ Priv到现在还没有  <a href="http://ife.baidu.com">这里链接baidu-ife</a>
 镇新增就业1000万人以上，城镇登记失业率4.5%以内。<a href="http://ife.baidu.com">链接乱入</a>
 3月9日，途经人民大会堂“部长通道”时，人社部部长尹蔚民表示，尽
 管今年就业形势非常复杂，他依然有信心完成今年的就业目标。</p>
-<img src="picforM1/qiaoen02.jpg" />
+<img class="tupian" src="picforM1/qiaoen02.jpg" />
 <ul>
 <li>列表项目一</li>
 <li>列表项目二</li>
 <li>列表项目三</li>
 </ul>
-<h3>图片</h3>
+</div>
+<div class="div1">
+<h2>图片</h2>
 <p>好看的图片</p>
 <img src="picforM1/RGBcolor.jpg" />
 <p>好看的图片</p>
 <img src="picforM1/qiaoen02.jpg" />
 <p>好看的图片</p>
 <img src="picforM1/fj01.jpg" />
+</div>
+<div class="div1">
 <h2>最后一篇文章标题</h2>
 <h3>文章二级标题</h3>
 <p>作者：新京报教育新闻&nbsp;&nbsp;时间：2016年03月14日07:41</p>
@@ -67,10 +78,9 @@ Priv到现在还没有  <a href="http://ife.baidu.com">这里链接baidu-ife</a>
 <li>排名2</li>
 <li>排名3</li>
 </ol>
-<p>下面是一个表格，给表格加了一个border=“1”好让你看出来是一个表格^_^</p>
-<table border="1">
+<table style="border:1px solid #ccc" rules="all" width="100%">
 <tr>
-<td>表头     </td><td>表头     </td><td>表头</td>
+<td class="biaotou">表头     </td><td class="biaotou">表头     </td><td class="biaotou">表头</td>
 </tr>
 <tr>
 <td>表内容单元格 </td><td>表内容单元格 </td><td>操作</td>
@@ -85,17 +95,19 @@ Priv到现在还没有  <a href="http://ife.baidu.com">这里链接baidu-ife</a>
 <td>表内容单元格 </td><td>表内容单元格 </td><td>操作</td>
 </tr>
 <tr>
-<td>总计          </td><td colspan="2">1000          </td> <!-- 合并两列 colspan，行是用rowspan -->
+<td class="huise">总计          </td><td class="huise" colspan="2">1000          </td> <!-- 合并两列 colspan，行是用rowspan -->
 </tr>
 </table>
-<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
-<h2>侧栏注册窗口标题</h2>
-<p>请输入邮箱地址：<input type="text" name="email" /></p>
-<p>邮箱地址请按要求格式输入</p>
-<p>请输入密码：<input type="text" name="password" /> 请重复输入密码：<input type="text" name="passwAgain" /></p>
-<p>密码请为6-16位英文数字</p>
-
-<p>性别：<input type="radio" value="1" name="gender" /> 男 <input type="radio" value="2" name="gender" /> 女 </p>
+</div>
+<div class="div1">
+<div class="lasttitle"><h2>这里以后是一个侧栏，这是侧栏的标题</h2></div>
+<div class="div2">
+<label>请输入邮箱地址&nbsp;<input type="text" name="email" /></label>
+<p class="huizi">邮箱地址请按要求格式输入</p>
+<label>请输入密码&nbsp;<input type="text" name="password" /> <br /><br />请重复输入密码&nbsp;<input type="text" name="passwAgain" /></label>
+<p class="huizi">密码请为6-16位英文数字</p>
+<br />
+<label>性别：<input type="radio" value="1" name="gender" /> 男 <input type="radio" value="2" name="gender" /> 女 </label><br />
 <label>城市：</label>
 <select>
 <option value="北京" selected="selected">北京</option>
@@ -103,8 +115,18 @@ Priv到现在还没有  <a href="http://ife.baidu.com">这里链接baidu-ife</a>
 <option value="天津">天津</option>
 <option value="广东">广东</option>
 <option value="山西">山西</option>
-</select>
-<p>爱好：<input type="checkbox" name="checkbox1" value="运动">运动 <input type="checkbox" name="checkbox2" value="艺术">艺术 <input type="checkbox" name="checkbox3" value="科学">科学  个人描述；<textarea rows="3" cols="20">这是一个多行输入框，输入您的个人描述</textarea> <input type="submit" value="确认提交" name="submit" /></p>
+</select><br />
+<label>爱好：
+<input type="checkbox" name="checkbox1" value="运动">运动 
+<input type="checkbox" name="checkbox2" value="艺术">艺术 
+<input type="checkbox" name="checkbox3" value="科学">科学
+</label><br />
+<label>个人描述&nbsp;<textarea rows="6" cols="50">这是一个多行输入框，输入您的个人描述</textarea> <br />
+</div>
+<input  class="tijiao" type="submit" value="确认提交" name="submit" />
+</label>
+</div>
+</div>
 <p>版权所有&copy;</p>
 </body>
 </html>
