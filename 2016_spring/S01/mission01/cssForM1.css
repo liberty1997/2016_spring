@@ -7,7 +7,23 @@ body{
 background:#333;
 height:60px;
 position:relative;
-
+}
+.navBar ul{
+	position:absolute;
+	list-style:circle inside black;
+	top:17px;
+	right:0;
+}
+.navBar li{
+	float:left;
+	margin:0 15px;
+	font-size:18px;
+}
+.navBar li a{
+	color:#fff;
+}
+.navBar a:hover{
+	color:#f00;
 }
 .logo{
 	position:absolute;
@@ -15,12 +31,7 @@ position:relative;
 	width:194px;
 	margin:10px;
 }
-.lianjie{
-	float:right;
-	color:black;
-	font-size:20px;
-	padding:5px;
-}
+
 .div1{
 	padding:20px;
 	border:2px solid #ccc;
@@ -31,7 +42,6 @@ position:relative;
 .huibian{
 	padding:20px;
 	background:#dedede;
-	
 }
 .div1:hover{
 	box-shadow:4px 4px 2px #999;
@@ -41,6 +51,7 @@ position:relative;
 	color:#FFF;
 	font-size:14px;
 	font-family:"Microsoft Yahei";
+	text-align:left;
 }
 .huise{
 	background:#ccc;
@@ -66,4 +77,11 @@ position:relative;
 .div2{
 	font-size:13px;
 	text-align:center;
+}
+.footer{
+	background:#003;
+	height:70px;
+	text-align:center;
+	line-height:70px;
+	color:#fff;
 }
