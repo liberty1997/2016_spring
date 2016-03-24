@@ -1,0 +1,33 @@
+*{
+padding:0;
+margin:0;
+}
+.div1{
+	width:400px;
+	height:200px;
+	background:#ccc;
+	position:absolute;
+	top:50%;  /*top和left为50%，是使块状元素的左上角相对于画面居中*/
+	left:50%;
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);/*此行作用是相对于块状元素本身发生位移，分别会向左向上移动块状元素自身的50%*/
+	overflow:hidden;
+	}
+.top-left{
+	background:#fc0;
+	border-radius:50%;
+	height:100px;
+	width:100px;
+	top:-50px;
+	left:-50px;
+	position:absolute;
+}
+.right-bottom{
+	background:#fc0;
+	border-radius:50px;
+	height:100px;
+	width:100px;
+	right:-50px;
+	bottom:-50px;
+	position:absolute;
+}
